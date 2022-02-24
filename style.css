@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form {
+    width: 400px;
+    height: 400px;
+    background: lightblue;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(145%, 50%);
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.input {
+    margin: 15px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    background: cornsilk;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 30px;
+}
+
+a:hover {
+    background: lightcoral;
+    color: aliceblue;
+}
+
+.btn {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+input {
+    padding: 10px 50px;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
